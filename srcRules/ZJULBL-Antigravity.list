@@ -1,0 +1,17 @@
+# ZJULBL-Antigravity.list
+
+# 匹配 antigravity 相关的 Google 服务
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,gemini.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+# DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,gstatic.com
+# DOMAIN-SUFFIX,google.com
+
+# 兜底规则，确保所有包含 'antigravity' 的域名流量走代理
+DOMAIN-KEYWORD,antigravity
+
+# 进程规则
+PROCESS-NAME,Antigravity.exe
+PROCESS-NAME,language_server_windows_x64.exe

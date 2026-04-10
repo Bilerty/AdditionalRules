@@ -1,23 +1,33 @@
-name: Basic CI
+name: Generate Classical Rules
 
 on:
   push:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important for pushing changes
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run a one-line script
-        run: echo "Hello from GitHub Actions!"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-      - name: Run a multi-line script
-        run: |
-          echo "GitHub Actions is successfully set up."
-          echo "Current branch: ${{ github.ref }}"
+      - name: Generate rules
+        run: python scripts/generate_rules.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated: update generated rules [skip ci]"
+          file_pattern: 'rules/*.txt'
+          branch: ${{ github.head_ref || github.ref_name }}
