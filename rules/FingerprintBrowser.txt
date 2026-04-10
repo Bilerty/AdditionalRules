@@ -1,4 +1,0 @@
-payload:
-- PROCESS-NAME,RoxyBrowser.exe
-- PROCESS-NAME,RoxyChrome.exe
-- PROCESS-NAME,roxynet.exe
