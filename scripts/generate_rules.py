@@ -44,7 +44,7 @@ def main():
             with open(out_path, 'w', encoding='utf-8', newline='\n') as f:
                 f.write('payload:\n')
                 for rule in rules:
-                    f.write(f'- {rule}\n')
+                    f.write(f'  - {rule}\n')
 
         except Exception as e:
             print(f"Error processing {base_name}: {e}")
