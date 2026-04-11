@@ -1,10 +1,10 @@
 payload:
-- DOMAIN-KEYWORD,illinois
-- DOMAIN-KEYWORD,shibboleth
-- DOMAIN-KEYWORD,uiuc
-- DOMAIN-SUFFIX,canvas-user-content.com
-- DOMAIN-SUFFIX,duosecurity.com
-- DOMAIN-SUFFIX,insops.net
-- DOMAIN-SUFFIX,gradescope.com
-- DOMAIN-SUFFIX,us.prairielearn.com
-- DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-KEYWORD,illinois
+  - DOMAIN-KEYWORD,shibboleth
+  - DOMAIN-KEYWORD,uiuc
+  - DOMAIN-SUFFIX,canvas-user-content.com
+  - DOMAIN-SUFFIX,duosecurity.com
+  - DOMAIN-SUFFIX,insops.net
+  - DOMAIN-SUFFIX,gradescope.com
+  - DOMAIN-SUFFIX,us.prairielearn.com
+  - DOMAIN-SUFFIX,zoom.us

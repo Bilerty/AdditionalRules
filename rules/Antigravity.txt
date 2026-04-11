@@ -1,8 +1,8 @@
 payload:
-- DOMAIN-SUFFIX,antigravity.google
-- DOMAIN-SUFFIX,antigravity-unleash.goog
-- DOMAIN-SUFFIX,gemini.googleapis.com
-- DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
-- DOMAIN-KEYWORD,antigravity
-- PROCESS-NAME,Antigravity.exe
-- PROCESS-NAME,language_server_windows_x64.exe
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  - DOMAIN-SUFFIX,gemini.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  - DOMAIN-KEYWORD,antigravity
+  - PROCESS-NAME,Antigravity.exe
+  - PROCESS-NAME,language_server_windows_x64.exe

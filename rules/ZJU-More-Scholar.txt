@@ -1,20 +1,20 @@
 payload:
-- DOMAIN-SUFFIX,canvas-user-content.com
-- DOMAIN-KEYWORD,illinois
-- DOMAIN-SUFFIX,iclicker.com
-- DOMAIN-SUFFIX,emerald.com
-- DOMAIN-SUFFIX,ieee.org
-- DOMAIN-SUFFIX,proquest.com
-- DOMAIN-SUFFIX,sciencedirect.com
-- DOMAIN-SUFFIX,sciencedirectassets.com
-- DOMAIN-SUFFIX,nature.com
-- DOMAIN-SUFFIX,acs.org
-- DOMAIN-SUFFIX,taylorfrancis.com
-- DOMAIN-SUFFIX,osapublishing.org
-- DOMAIN-SUFFIX,clarivate.com
-- DOMAIN-SUFFIX,gale.com
-- DOMAIN-SUFFIX,worldscientific.com
-- DOMAIN-SUFFIX,siam.org
-- DOMAIN-SUFFIX,ascelibrary.org
-- DOMAIN-SUFFIX,scitation.org
-- DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,canvas-user-content.com
+  - DOMAIN-KEYWORD,illinois
+  - DOMAIN-SUFFIX,iclicker.com
+  - DOMAIN-SUFFIX,emerald.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,proquest.com
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,sciencedirectassets.com
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,taylorfrancis.com
+  - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,gale.com
+  - DOMAIN-SUFFIX,worldscientific.com
+  - DOMAIN-SUFFIX,siam.org
+  - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,scitation.org
+  - DOMAIN-SUFFIX,wiley.com
