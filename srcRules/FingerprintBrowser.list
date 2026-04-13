@@ -1,4 +1,4 @@
-# ZJULBL-FingerprintBrowser.list
+# ZJU-FingerprintBrowser.list
 
 PROCESS-NAME,RoxyBrowser.exe
 PROCESS-NAME,RoxyChrome.exe
