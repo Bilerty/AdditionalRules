@@ -1,4 +1,4 @@
-name: Generate Classical Rules
+name: Automated Rule Sync & Generate
 
 on:
   push:
@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [ "main", "master" ]
   workflow_dispatch: # Allows manual trigger
+  schedule:
+    - cron: '0 23 * * *' # 07:00 Beijing time
 
 jobs:
   build:
@@ -22,12 +24,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Generate rules
+      - name: Generate internal rules
         run: python scripts/generate_rules.py
+
+      - name: Sync external rules
+        run: python scripts/fetch_external_rules.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated: update generated rules [skip ci]"
-          file_pattern: 'rules/*.txt'
+          file_pattern: 'rules/*.txt subConvRules/externalList/*.list'
           branch: ${{ github.head_ref || github.ref_name }}
