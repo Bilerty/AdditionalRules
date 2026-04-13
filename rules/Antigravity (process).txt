@@ -1,0 +1,3 @@
+payload:
+  - PROCESS-NAME,Antigravity.exe
+  - PROCESS-NAME,language_server_windows_x64.exe
