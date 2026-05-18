@@ -1,0 +1,7 @@
+# Codex-IDE.list
+
+# 兜底规则，确保所有包含 'codex' 的域名流量走代理
+DOMAIN-KEYWORD,codex
+
+# 进程规则
+PROCESS-NAME,Codex.exe
