@@ -2,3 +2,4 @@
 
 # 进程规则
 PROCESS-NAME,OneDrive.exe
+PROCESS-NAME,OneDrive.Sync.Service.exe
