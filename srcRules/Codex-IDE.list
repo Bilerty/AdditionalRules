@@ -1,11 +1,20 @@
 # Codex-IDE.list
+# Codex 分流规则 — 精准代理，最小误伤
+# 
+# 设计原则：
+#   1. 域名规则覆盖所有指向 OpenAI/Codex 的 API 请求（无论来自哪个进程）
+#   2. 进程规则仅匹配 Codex CLI/Desktop 自身，不匹配 IDE 宿主进程
+#   3. IDE（VS Code/PyCharm）中的 Codex 插件流量完全由域名规则处理
+# 配合 openai.list 使用，覆盖 Codex 所有使用场景
 
-# 兜底规则，确保所有包含 'codex' 的域名流量走代理
+# === 域名规则 ===
+# 兜底匹配所有含 'codex' 的域名
 DOMAIN-KEYWORD,codex
 
-# 进程规则
-PROCESS-NAME,extension-host.exe
-PROCESS-NAME,codex.exe
-PROCESS-NAME,codex-windows-sandbox-setup.exe
-PROCESS-NAME,codex-command-runner.exe
-PROCESS-NAME,Codex.exe
+# === 进程规则 ===
+# Codex CLI（全平台：Windows codex.exe / macOS codex / Linux codex）
+# 包含匹配，大小写不敏感，一条覆盖所有 codex* 子进程
+PROCESS-NAME,codex
+# Codex Desktop App（全平台：Windows Codex.exe / macOS Codex）
+PROCESS-NAME,Codex
+
