@@ -1,7 +1,4 @@
 payload:
   - DOMAIN-KEYWORD,codex
-  - PROCESS-NAME,extension-host.exe
-  - PROCESS-NAME,codex.exe
-  - PROCESS-NAME,codex-windows-sandbox-setup.exe
-  - PROCESS-NAME,codex-command-runner.exe
-  - PROCESS-NAME,Codex.exe
+  - PROCESS-NAME,codex
+  - PROCESS-NAME,Codex
