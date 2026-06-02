@@ -252,6 +252,7 @@ DOMAIN,media-rockstargames-com.akamaized.net
 DOMAIN,medone-education.thieme.com
 DOMAIN,misa-prod.s3.ap-northeast-1.amazonaws.com
 DOMAIN,mobilelive-hamivideo.cdn.hinet.net
+DOMAIN,mozilla-ohttp.fastly-edge.com
 DOMAIN,mscrl.microsoft.com
 DOMAIN,msh.amazon.co.uk
 DOMAIN,mtalk-dev.google.com
@@ -7459,6 +7460,7 @@ DOMAIN-SUFFIX,disneyturkiye.com.tr
 DOMAIN-SUFFIX,disneytvajobs.com
 DOMAIN-SUFFIX,disneyworld-go.com
 DOMAIN-SUFFIX,disp.cc
+DOMAIN-SUFFIX,disq.us
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,disqusservice.com
@@ -10257,6 +10259,7 @@ DOMAIN-SUFFIX,getmalus.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getnews.jp
 DOMAIN-SUFFIX,getoutline.org
+DOMAIN-SUFFIX,getpaint.net
 DOMAIN-SUFFIX,getpocket.com
 DOMAIN-SUFFIX,getporn.tv
 DOMAIN-SUFFIX,getprintersupports.com
@@ -17910,6 +17913,7 @@ DOMAIN-SUFFIX,paily.org
 DOMAIN-SUFFIX,paimon.moe
 DOMAIN-SUFFIX,painfulpussytortures.com
 DOMAIN-SUFFIX,painnovel.com
+DOMAIN-SUFFIX,paint.net
 DOMAIN-SUFFIX,paipal.com
 DOMAIN-SUFFIX,paipancon.com
 DOMAIN-SUFFIX,paisapay.cc
@@ -25060,11 +25064,15 @@ DOMAIN-SUFFIX,xhamster.xxx
 DOMAIN-SUFFIX,xhamster18.com
 DOMAIN-SUFFIX,xhamster18.desi
 DOMAIN-SUFFIX,xhamster19.com
+DOMAIN-SUFFIX,xhamster2.com
 DOMAIN-SUFFIX,xhamster3.com
 DOMAIN-SUFFIX,xhamsterlive.com
 DOMAIN-SUFFIX,xhcdn.com
+DOMAIN-SUFFIX,xhnews.live
 DOMAIN-SUFFIX,xhot.pro
+DOMAIN-SUFFIX,xhpingcdn.com
 DOMAIN-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com
+DOMAIN-SUFFIX,xhreal5.com
 DOMAIN-SUFFIX,xhub.tv
 DOMAIN-SUFFIX,xiangrikui-app.com
 DOMAIN-SUFFIX,xianir.xyz
