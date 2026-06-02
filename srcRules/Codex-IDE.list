@@ -12,6 +12,10 @@
 DOMAIN-KEYWORD,codex
 
 # === 进程规则 ===
+PROCESS-NAME,codex.exe
+PROCESS-NAME,codex-windows-sandbox-setup.exe
+PROCESS-NAME,codex-command-runner.exe
+PROCESS-NAME,Codex.exe
 # Codex CLI（全平台：Windows codex.exe / macOS codex / Linux codex）
 # 包含匹配，大小写不敏感，一条覆盖所有 codex* 子进程
 PROCESS-NAME,codex
