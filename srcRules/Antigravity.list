@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 # DOMAIN-SUFFIX,gstatic.com
 # DOMAIN-SUFFIX,google.com
 
+# Vertex AI 业务
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+
 # 兜底规则，确保所有包含 'antigravity' 的域名流量走代理
 DOMAIN-KEYWORD,antigravity
 
