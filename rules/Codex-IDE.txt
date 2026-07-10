@@ -1,6 +1,9 @@
 payload:
   - DOMAIN-KEYWORD,codex
   - PROCESS-NAME,codex.exe
+  - PROCESS-NAME,elevation_service.exe
+  - PROCESS-NAME,elevated_tracing_service.exe
+  - PROCESS-NAME,ChatGPT.exe
   - PROCESS-NAME,codex-windows-sandbox-setup.exe
   - PROCESS-NAME,codex-command-runner.exe
   - PROCESS-NAME,Codex.exe
