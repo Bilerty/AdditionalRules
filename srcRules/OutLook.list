@@ -1,0 +1,34 @@
+# Token 刷新
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,login.live.com
+DOMAIN-SUFFIX,login.microsoft.com
+DOMAIN-SUFFIX,account.live.com
+DOMAIN-SUFFIX,account.microsoft.com
+
+# Graph 读信
+DOMAIN-SUFFIX,graph.microsoft.com
+DOMAIN-SUFFIX,graph.microsoft.us
+DOMAIN-SUFFIX,microsoftgraph.chinacloudapi.cn
+
+# IMAP / Outlook 主机
+DOMAIN-SUFFIX,outlook.office365.com
+DOMAIN-SUFFIX,outlook.office.com
+DOMAIN-SUFFIX,smtp.office365.com
+DOMAIN-SUFFIX,attachment.outlook.office.net
+DOMAIN-SUFFIX,attachments.office.net
+
+# Hotmail / Live 邮箱相关
+DOMAIN-SUFFIX,outlook.live.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+
+# 微软通用（收信链路常会碰到）
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msn.com
